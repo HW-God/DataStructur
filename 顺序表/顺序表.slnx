@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="顺序表/顺序表.vcxproj" Id="093f7081-66cd-4c41-8799-790755242b43" />
+</Solution>

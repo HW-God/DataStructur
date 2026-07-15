@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="单链表/单链表.vcxproj" Id="1ec5fc5e-e836-4269-b1e5-5300ccbe58c7" />
+</Solution>

@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\HAO\\source\\repos\\\u6570\u636E\u7ED3\u6784\u4EE3\u7801\u590D\u73B0\\\u6811\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E0EA4DC1-569A-4492-B996-22F9369ED2BB}|\u6811\\\u6811.vcxproj|C:\\Users\\HAO\\source\\repos\\\u6570\u636E\u7ED3\u6784\u4EE3\u7801\u590D\u73B0\\\u6811\\\u6811\\\u53CC\u4EB2\u8868\u793A\u6CD5.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{E0EA4DC1-569A-4492-B996-22F9369ED2BB}|\u6811\\\u6811.vcxproj|solutionrelative:\u6811\\\u53CC\u4EB2\u8868\u793A\u6CD5.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{E0EA4DC1-569A-4492-B996-22F9369ED2BB}|\u6811\\\u6811.vcxproj|C:\\Users\\HAO\\source\\repos\\\u6570\u636E\u7ED3\u6784\u4EE3\u7801\u590D\u73B0\\\u6811\\\u6811\\\u5B69\u5B50\u5144\u5F1F\u8868\u793A\u6CD5.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E0EA4DC1-569A-4492-B996-22F9369ED2BB}|\u6811\\\u6811.vcxproj|solutionrelative:\u6811\\\u5B69\u5B50\u5144\u5F1F\u8868\u793A\u6CD5.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\HAO\\source\\repos\\\u6570\u636E\u7ED3\u6784\u4EE3\u7801\u590D\u73B0\\\u6811\\\u6811\\\u53CC\u4EB2\u8868\u793A\u6CD5.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:\u6811\\\u53CC\u4EB2\u8868\u793A\u6CD5.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,14 +23,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "\u5B69\u5B50\u5144\u5F1F\u8868\u793A\u6CD5.cpp",
+              "DocumentMoniker": "C:\\Users\\HAO\\source\\repos\\\u6570\u636E\u7ED3\u6784\u4EE3\u7801\u590D\u73B0\\\u6811\\\u6811\\\u5B69\u5B50\u5144\u5F1F\u8868\u793A\u6CD5.cpp",
+              "RelativeDocumentMoniker": "\u6811\\\u5B69\u5B50\u5144\u5F1F\u8868\u793A\u6CD5.cpp",
+              "ToolTip": "C:\\Users\\HAO\\source\\repos\\\u6570\u636E\u7ED3\u6784\u4EE3\u7801\u590D\u73B0\\\u6811\\\u6811\\\u5B69\u5B50\u5144\u5F1F\u8868\u793A\u6CD5.cpp",
+              "RelativeToolTip": "\u6811\\\u5B69\u5B50\u5144\u5F1F\u8868\u793A\u6CD5.cpp",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAAFoAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-07-19T01:41:53.703Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "\u53CC\u4EB2\u8868\u793A\u6CD5.cpp",
               "DocumentMoniker": "C:\\Users\\HAO\\source\\repos\\\u6570\u636E\u7ED3\u6784\u4EE3\u7801\u590D\u73B0\\\u6811\\\u6811\\\u53CC\u4EB2\u8868\u793A\u6CD5.cpp",
               "RelativeDocumentMoniker": "\u6811\\\u53CC\u4EB2\u8868\u793A\u6CD5.cpp",
-              "ToolTip": "C:\\Users\\HAO\\source\\repos\\\u6570\u636E\u7ED3\u6784\u4EE3\u7801\u590D\u73B0\\\u6811\\\u6811\\\u53CC\u4EB2\u8868\u793A\u6CD5.cpp*",
-              "RelativeToolTip": "\u6811\\\u53CC\u4EB2\u8868\u793A\u6CD5.cpp*",
-              "ViewState": "AgIAADwAAAAAAAAAAAAAAEUAAAA1AAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\HAO\\source\\repos\\\u6570\u636E\u7ED3\u6784\u4EE3\u7801\u590D\u73B0\\\u6811\\\u6811\\\u53CC\u4EB2\u8868\u793A\u6CD5.cpp",
+              "RelativeToolTip": "\u6811\\\u53CC\u4EB2\u8868\u793A\u6CD5.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-07-16T13:19:20.686Z",
+              "WhenOpened": "2026-07-18T08:27:22.087Z",
               "EditorCaption": ""
             }
           ]

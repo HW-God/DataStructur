@@ -1,0 +1,83 @@
+﻿#define _CRT_SECURE_NO_WARNINGS
+#include<stdio.h>
+#include<stdlib.h>
+
+typedef struct Node
+{
+	struct Node* kid;
+	char data;
+	struct Node* bro;
+}Node,*Linktree;
+int sum = 0;
+
+void Init(Linktree head,char root)
+{
+	
+	head->data = root;
+	head->bro = head->kid = NULL;
+}
+
+Node* Find(Linktree root,char fa)
+{
+	Node* ans = NULL;
+	if (root->data == fa)return root;
+	
+	if (root->kid != NULL)
+	{
+		ans = Find(root->kid, fa);
+	}
+	if (root->bro != NULL)
+	{
+		ans = Find(root->bro, fa);
+	}
+	return ans;
+
+}
+
+void Insert(Linktree head,char x, char fa)
+{
+	Node* p=Find(head,fa);
+	Node* s=(Node*)malloc(sizeof(Node));
+	s->data = x;
+	s->bro = s->kid = NULL;
+
+	if (p->kid != NULL)
+	{
+		p = p->kid->bro;
+		while (p->bro != NULL)
+		{
+			p = p->bro;
+		}
+		p->bro = s;
+	}
+	else
+	{
+		p->kid = s;
+	}
+
+}
+
+int main()
+{
+	Linktree head=(Node*)malloc(sizeof(Node));
+
+	int n;
+	scanf("%d", &n);
+
+	char root;
+	scanf(" %c", &root);
+	Init(head,root);
+	n--;
+
+	char x, fa;
+	while (n--)
+	{
+		scanf(" %c %c", &x, &fa);
+		Insert(head,x, fa);
+	}
+
+	scanf("%c", &x);
+	Node* p = Find(head,x);
+	if (p->kid == NULL)printf("该节点为叶子节点");
+	printf("该节点的孩子为%c", p->kid->data);
+}

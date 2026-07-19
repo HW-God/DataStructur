@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="双亲表示法.cpp">
+    <ClCompile Include="孩子兄弟表示法.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

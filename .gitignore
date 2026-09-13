@@ -1,24 +1,49 @@
-# Visual Studio
+# ===== Visual Studio 用户/本地配置 =====
 .vs/
 *.suo
 *.user
-*.slnx
+*.rsuser
 *.opendb
+*.VC.db
+*.VC.VC.opendb
 
-# Build outputs
+# ===== 构建输出 =====
 x64/
+x86/
 Debug/
 Release/
 ipch/
+[Bb]in/
+[Oo]bj/
 *.obj
+*.o
 *.exe
+*.dll
 *.pdb
 *.ilk
 *.exp
 *.lib
 *.iobj
 *.ipdb
+*.recipe
+*.idb
+*.log
+*.tlog
+*.lastbuildstate
+*.cache
+*.db
 
-# OS
+# ===== CMake / 其他 =====
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+
+# ===== 编辑器 =====
+*.swp
+*~
+.vscode/
+
+# ===== 操作系统 =====
 .DS_Store
 Thumbs.db
+desktop.ini

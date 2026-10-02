@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="最小生成树prim.cpp">
+    <ClCompile Include="最短路径dijkstra.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

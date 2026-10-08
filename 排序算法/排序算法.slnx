@@ -3,5 +3,5 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="排序算法.vcxproj" />
+  <Project Path="排序算法.vcxproj" Id="6ec05b65-0cdc-4a05-a312-3bf25f393f89" />
 </Solution>

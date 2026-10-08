@@ -15,10 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="希尔排序.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="直接插入排序.cpp">
+    <ClCompile Include="快速排序.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
